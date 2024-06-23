@@ -1,0 +1,19 @@
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 100px;
+  background-color: aqua;
+  box-shadow: 60px -20px red;
+  /*offset x | offset y | blur- radius | spread-radius | color */
+  box-shadow: 60px -20px 5px 10px rgba(255, 0, 0, 0.534);
+  /*inset |offset x | offset y | blur- radius | spread-radius | color */
+  box-shadow: inset 30px 10px 0px 0px rgba(170, 240, 6, 0.986);
+}
+/* đổ nhiều bóng  */
+.box1 {
+  width: 200px;
+  height: 200px;
+  margin: 100px;
+  background-color: rgb(12, 204, 12);
+  box-shadow: 210px 0 grey, 0px 210px blueviolet, 210px 210px greenyellow;
+}
